@@ -186,16 +186,22 @@ body {
 .box-company h5 {
     margin-top: -3px;
     margin-bottom: 5px;
+    font-weight: 700;
+}
+.box-company .year{
+    /* width:31%;
+    margin: 53%
+    padding: 0; */
+    float:right;
+    font-size:small;
+    font-weight: 400;
+    color:#9b9696
 }
 
 .about p {
     font-size: medium;
     text-align: justify;
     margin-bottom: 20px;
-}
-
-.about .box-exp .box-company h5 {
-    font-weight: 700;
 }
 
 .about .box-exp .box-company h5:nth-child(1) {
@@ -208,7 +214,7 @@ body {
     font-size: 16px;
 }
 
-.about .skills .box {
+ .skills .box {
     position: relative;
     width: 100%;
     display: grid;
@@ -217,12 +223,12 @@ body {
     align-items: center;
 }
 
-.about .skills .box h4 {
+ .skills .box h4 {
     font-weight: 500;
     margin-bottom: 20px;
 }
 
-.about .skills .box .percent {
+.skills .box .percent {
     position: relative;
     width: 100%;
     height: 10px;
@@ -298,6 +304,10 @@ body {
         float: left;
         margin-left: 216px;
     }
+    .icon{
+        justify-content: flex-end;
+    }
+
 }
 
 /* .box2{
